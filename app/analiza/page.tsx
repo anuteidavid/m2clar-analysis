@@ -1,0 +1,4 @@
+import CurriculumBrowser from "@/components/curriculum-browser";
+import LearningPath from "@/components/learning-path";
+export const metadata = { title: "Programa de analiză matematică | m2clar" };
+export default function AnalysisPage(){return <main className="wrap" style={{padding:"52px 0 70px"}}><span className="pill">Parcurs universitar</span><h1 className="serif" style={{fontSize:"clamp(38px,6vw,62px)",margin:"18px 0 10px"}}>Analiză matematică</h1><p className="muted" style={{maxWidth:760,lineHeight:1.8}}>Învață într-un traseu cu pași scurți, urmărește-ți seria și adaptează programa facultății tale. Lecțiile în pregătire rămân vizibile, fără să fie prezentate ca material complet.</p><LearningPath/><section className="curriculum-config"><h2 className="serif">Configurează programa</h2><p className="muted">Alege și ordonează modulele potrivite programei tale. Poți oricând să sari la un alt modul.</p><CurriculumBrowser/></section></main>}

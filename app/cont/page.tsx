@@ -1,0 +1,2 @@
+import AccountForm from "@/components/account-form";
+export default function Page(){return <main className="wrap" style={{paddingTop:55,minHeight:"65vh"}}><div style={{textAlign:"center"}}><span className="pill">Contul tău</span><h1 className="serif" style={{fontSize:48}}>Pregătirea începe <em>aici.</em></h1><p className="muted">Creează un cont și setează-ți profilul de studiu.</p></div><AccountForm/></main>}
